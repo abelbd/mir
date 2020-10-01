@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>How are u feelin' today</title>
+	<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+	<div id="portada" style="display: block;">
+		<div class="fondo">
+			<img id="btncerrar" onclick="cerrar()" src="images/SVG/Cerrar.svg">
+
+			<div class="maquina">
+				<img id="e1" src="images/SVG/Estrella.svg"><img id="e2" src="images/SVG/Estrella.svg"><img id="e3" src="images/SVG/Estrella.svg">
+				<img id="smfrg" src="images/SVG/Semaforo-rojo.svg"><img id="smfvg" src="images/SVG/Semaforo-verde.svg">
+				<img id="palancamov" src="images/SVG/Palanca.svg">
+
+
+				<!-- PANTALLA DE INICIO -->
+
+				<img id="logo" src="images/SVG/Logo.svg">
+				<button id="boton1" onclick="ocultar1()">
+					<div class="contenedor">
+  					<img src="images/SVG/Boton.svg"/>
+  					<div class="centrado1">start</div>
+  				</button>
+
+  				<!-- PANTALLA DE INTRUCCIONES -->
+
+  				<div id="howtp">how to play?</div>
+  				<div id="indicaciones">
+  					<ul id="liind" style="list-style-position:outside;">
+  						<li>Push the let's play button.</li>
+  						<li>Pull down the level.</li>
+  						<li>Look at the faces on the reel and chose the correct feeling according to it.</li>
+  					</ul></div>
+  				<button id="boton2" onclick="ocultar2()">
+  					<img src="images/SVG/Boton.svg" />
+  					<div class="centrado2">let's play</div>
+  				</button>
+			</div>
+		</div>
+
+	</div>
+		 	<img id="imgcountdown" src="images/SVG/Contador.svg">
+			<div class="centrado2"id="countdown"></div>
+			<div id="fondolandscape">Orienta tu dispositivo en vertical</div>
+
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>

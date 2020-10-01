@@ -1,0 +1,13 @@
+<svg width="482" height="363" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="365" width="484" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" id="svg_1" d="m456.931848,348.300009l-423.763685,0c-12.647755,0 -22.868164,-9.405482 -22.868164,-21.044765l0,-292.510478c0,-11.639284 10.220408,-21.044765 22.868164,-21.044765l423.763685,0c12.647755,0 22.868164,9.405482 22.868164,21.044765l0,292.39291c0,11.756852 -10.220408,21.162334 -22.868164,21.162334z" fill="#FFFFFF"/>
+  <text font-weight="bold" stroke="#000" transform="matrix(0.9636576801345774,0,0,2.027925267081229,-4.691435313710027,21.89719522840941) " xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="50" id="svg_2" y="57.955008" x="29.590652" stroke-width="0" fill="#000000">Pull down the lever</text>
+  <text stroke="#000" transform="matrix(1.6974927723953015,0,0,2.361626929529889,-60.47170850751933,-275.8982027946862) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="52" id="svg_3" y="233.514763" x="65.269002" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">to start!!!</text>
+ </g>
+</svg>

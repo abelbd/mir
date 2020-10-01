@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Words n' ducks</title>
+</head>
+<body>
+<div>
+<div id="fondo">
+	<div class="escenario">
+		<img id="btncerrar" src="images/Cerrar.svg">
+		<img id="letrero" src="images/Letrero.svg">
+		<button id="boton1" onclick="ocultar1()">
+  					<img src="images/Boton.svg"/>
+  					<div class="centrado">start</div>
+  				</button>
+
+  		<img id="howtp" src="images/Letrero2.svg">
+  		<text id="howtpl">&nbsp &nbsp How<br>to play</text>
+  		<div id="indicaciones">
+  				<ul id="liind" style="list-style-position:outside;">
+  					<li>Look at the category of each word bank.</li>
+  					<br>
+  					<li>Choose the duc with the word that does not belong to each category.</li>
+  					<br>
+  					<li>Hurry up or you will lose lives.</li>
+  				</ul>
+  		</div>
+  		<img id="exduck" src="images/Pato ejemplo.svg">
+  		<button id="boton2" onclick="ocultar2()">
+  					<img src="images/Boton.svg"/>
+  					<div class="centrado1">let's start</div>
+  				</button>
+	</div>
+</div>
+		<img id="imgcountdown" src="images/Conteo.svg">
+			<div class="centrado2"id="countdown"></div>	
+</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

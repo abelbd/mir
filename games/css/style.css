@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Risque-Regular";
+  src: url("../img/Risque-Regular.otf") format("opentype");
+}
+#lienzo{position: absolute; width: 700px; margin: 0 auto; border: 1px solid lightgray; background: url('../img/WAV7.svg') no-repeat center;}
+#lienzo:hover{ cursor: url('../img/martillo.png'), pointer;}
+.topo{position: absolute; animation: cut 4s infinite;}
+@keyframes  cut {
+  0%{clip: rect(200px,200px,200px,0px);}
+  40%{clip: rect(0px,200px,200px,0px);}
+  60%{clip: rect(0px,200px,200px,0px);}
+  100%{clip: rect(200px,200px,200px,0px);}
+}

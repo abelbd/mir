@@ -1,0 +1,798 @@
+.fondo{
+  background: url(../img/svg/Background.svg);
+  background-repeat: repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.numbers{
+  background: rgba(0,0,0,0.80);
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.circle{
+  position: relative;
+  top: 20%;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  max-width: 500px;
+  max-height: 500px;
+  color: #fcdb93;
+  background: url(../img/svg/Numbers.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+
+  font-size: 20em;
+  font-family: "Ribeye-Regular";
+}
+
+
+/*************************************************************************************************************************************/
+/*************************************************BOTON CERRAR PARA INICIO************************************************************/
+.btn-close{
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+.container {
+  text-align: center
+}
+
+.square {
+  display: inline-block;
+  background: url(../img/svg/close.svg);
+  height: 100px;
+  width: 100px;
+  margin: 0 40px;
+  transition: transform 1s ease-in-out;
+}
+
+.square2:hover {
+  transform: rotate(1000deg);
+}
+/*
+.close-svg{
+  position: absolute;
+  background: url(../img/svg/close.svg);
+  top: 0px;
+  left: 0px;
+  height: 80px;
+  width: 80px;
+  border: none;
+  border-radius: 40px;
+  outline:none;
+  background-size: cover;
+  background-size: 80px;
+}
+.close-svg:active{
+  position: absolute;
+  background: url(../img/svg/close.svg);
+  height: 90px;
+  width: 90px;
+}
+.sombra:active{
+  position: absolute;
+  height: 79px;
+  width: 79px;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sombrasss{
+  position: absolute;
+  height: 69px;
+  width: 69px;
+  top: 5.5px;
+  left: 5.5px;
+  border-radius: 50px;
+  border: none;
+  background-color: #f4844c;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+}*/
+/*************************************************************************************************************************************/
+/******************************************************VENTANA************************************************************************/
+
+.window{
+  position: relative;
+
+  top: 0px;
+  padding-top: 0px;
+ /*left: 690px;
+  margin:0;
+    height: 672px;
+  width: 500px;
+  top: 0;
+  */
+  margin: auto;
+  width: 50%;
+  max-width: 500px;
+
+  padding: 30px;
+
+  background-repeat: no-repeat;
+  height: 25em;
+  width: 25em;
+}
+.ventana-fondo{
+  top: 0;
+  padding-top: 0px;
+  margin-top: 0;
+  position: absolute;
+  background: url(../img/svg/Window_open.svg);
+  background-repeat: no-repeat;
+  top: 0px;
+  left: 0px;
+  height: 510px;
+  width: 510px;
+  border: none;
+  outline:none;
+  background-size: cover;
+  background-size: 100%;
+}
+.puerta_ventana-left{
+  position: absolute;
+  background: url(../img/svg/door_window.svg);
+  background-repeat: no-repeat;
+  top: 103px;
+  left: -136px;
+  height: 363px;
+  width: 215px;
+  border: none;
+  outline:none;
+  background-size: 100%;
+
+}
+.puerta_ventana-right{
+  position: absolute;
+  background: url(../img/svg/door_window.svg);
+  background-repeat: no-repeat;
+  top: 103px;
+  right: -184px;
+  height: 363px;
+  width: 215px;
+  border: none;
+  outline:none;
+  background-size: cover;
+  background-size: 100%;
+}
+.elena{
+  position: absolute;
+  background: url(../img/svg/Helena1.svg);
+  background-repeat: no-repeat;
+  top: 112px;
+  left: 65px;
+  height: 350px;
+  width: 350px;
+  border: none;
+  outline:none;
+  background-size: cover;
+  background-size: 100%;
+
+}
+.fPuntos{
+  position: absolute;
+  color: #dc6c3c;
+  font-size: 3em;
+  letter-spacing: 20px;
+  top: 200px;
+  left: 130px;
+
+}
+.TotalPuntos{
+  position: absolute;
+  color: #fcdb93;
+  font-size: 3em;
+  letter-spacing: 15px;
+  top: 300px;
+  left: 160px;
+
+}
+/*************************************************************************************************************************************/
+/******************************************************FUENTE*************************************************************************/
+.fuente{
+  position: absolute;
+  font-family: 'Ribeye', cursive;
+}
+.arima{
+  font-family: 'Arima Madurai', cursive;
+}
+/*************************************************************************************************************************************/
+/***************************************************COLORES FUENTE TITULO*************************************************************/
+.color-cafe{
+  position: absolute;
+  color: #a45c34;
+  font-size: 89px;
+  top: 530px;
+  left: 135px;
+}
+.color-naranja{
+  position: absolute;
+  color: #dc6c3c;
+  font-size: 70px;
+  top: 630px;
+  left: 85px;
+}
+/*************************************************************************************************************************************/
+/*******************************************BOTON START*******************************************************************************/
+.btn-start{
+  position: absolute;
+  margin: 0;
+  left: 70%;
+  padding: 0;
+  top: 85%;
+    margin: auto;
+  width: 50%;
+  max-width: 500px;
+  /*font-size: 70px;
+  top: 505px;
+  left: 85px;*/
+}
+.boton-start{
+  position: absolute;
+  background: url(../img/svg/Button.svg);
+  /*background-color: #fcdb93;
+  */color: #a45c34;
+  font-size: 50px;
+  padding-left: 0;
+  height: 80px;
+  width: 250px;
+  border: none;
+  outline:none;
+  background-size: cover;
+  background-size: 104%;
+}
+.sombrasss-start{
+  position: absolute;
+  height: 70px;
+  width: 230px;
+  left: 20px;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*************************************************************************************************************************************/
+/******************************************************VENTANA************************************************************************/
+.window-rule{
+  position: relative;
+  /*height: 670px;
+  width: 695px;
+  top: 0px;
+  padding-top: 0px;
+  *//*left: 590px;
+  margin:0;
+  top: 0;*/
+  /******************************/
+
+ /*left: 690px;
+  margin:0;
+    height: 672px;
+  width: 500px;
+  top: 0;
+  */
+  margin: auto;
+  width: 50%;
+  max-width: 500px;
+  padding: auto;
+
+  background-repeat: no-repeat;
+  height: 40em;
+  /*width: 45em;*/
+}
+.ventana-fondo-rule{
+  position: absolute;
+  background: url(../img/svg/Window_open.svg);
+  background-repeat: no-repeat;
+  height: 35em;
+  width: 35em;
+  border: none;
+  outline:none;
+  background-size: cover;
+  background-size: 100%;
+  margin-left: -2em;
+
+}
+.puerta_ventana-left-rule{
+  position: absolute;
+  background: url(../img/svg/door_window.svg);
+  background-repeat: no-repeat;
+  top: 115px;
+  left: -180px;
+  height: 28.7em;
+  width: 14.7em;
+  border: none;
+  outline:none;
+  background-size: 100%;
+}
+.puerta_ventana-right-rule{
+  position: absolute;
+  background: url(../img/svg/door_window.svg);
+  background-repeat: no-repeat;
+  top: 115px;
+  right: -174px;
+  height: 28.7em;
+  width: 14.7em;
+  border: none;
+  outline:none;
+  background-size: 100%;
+}
+/*************************************************************************************************************************************/
+/************************************************ FUENTE INSTRUCCIONES **************************************************************************/
+.tittle-rule{
+  color: #fcdb93;
+  position: absolute;
+  font-size: 2em;
+  top:2em;
+  left: 4em;
+}
+.rules{
+    position: absolute;
+    font-size: 1.8em;
+    height: 13em;
+    width: 14em;
+    top: 145px;
+    left: 0px;
+}
+/*************************************************************************************************************************************/
+/**************************************************** VIÑETAS ************************************************************************/
+ul li {
+    color: #e47c44;
+    list-style-type: none;
+    margin-left: 1em;
+}
+
+ul li:before {
+    content: '\2022 ';
+    color: #fcdb93;
+    padding-right: 0.7em;
+}
+
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+@import "https://fonts.googleapis.com/css?family=Rubik+One";
+
+.button::before, .button::after {
+  position: absolute;
+  content: '';
+  transition: all .5s;
+}
+.triangulo{
+  position: absolute;
+}
+.button {
+  width: 220px;
+  height: 70px;
+  display: inline-block;
+  line-height: 70px;
+  padding: 10px;
+  color: #a45c34;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  vertical-align: middle;
+
+  text-decoration: none;
+  font-size: 2.5vw;
+  margin: 0;
+  transition: all .5s;
+  background-color: #fcdb93;
+ 
+}
+.button::before {
+  bottom: -15px;
+  height: 15px;
+  width: 100%;
+  left: 8px;
+  -webkit-transform: skewX(45deg);
+          transform: skewX(45deg);
+  background-color: #e47c44;
+}
+.button::after {
+  right: -15px;
+  height: 100%;
+  width: 15px;
+  bottom: -8px;
+  -webkit-transform: skewY(45deg);
+          transform: skewY(45deg);
+  background-color: #e47c44;
+}
+.button:active {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.button:active::before {
+  bottom: -5px;
+  height: 5px;
+  left: 3px;
+}
+.button:active::after {
+  right: -5px;
+  width: 5px;
+  bottom: -3px;
+}
+
+
+
+
+
+
+@media (min-width: 800px) and (max-width: 1200px) {
+@import "https://fonts.googleapis.com/css?family=Rubik+One";
+
+  .button::before, .button::after {
+    position: absolute;
+    content: '';
+    transition: all .5s;
+  }
+  .triangulo{
+    position: absolute;
+  }
+
+  .button {
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    padding: 5px;
+    color: #a45c34;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    vertical-align: middle;
+
+    text-decoration: none;
+    font-size: 3vw;
+    margin: 0;
+    transition: all .5s;
+    background-color: #fcdb93;
+   
+  }
+  .button::before {
+    bottom: -15px;
+    height: 15px;
+    width: 100%;
+    left: 8px;
+    -webkit-transform: skewX(45deg);
+            transform: skewX(45deg);
+    background-color: #e47c44;
+  }
+  .button::after {
+    right: -15px;
+    height: 100%;
+    width: 15px;
+    bottom: -8px;
+    -webkit-transform: skewY(45deg);
+            transform: skewY(45deg);
+    background-color: #e47c44;
+  }
+  .button:active {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .button:active::before {
+    bottom: -5px;
+    height: 5px;
+    left: 3px;
+  }
+  .button:active::after {
+    right: -5px;
+    width: 5px;
+    bottom: -3px;
+  }
+  .btn-start{
+    position: absolute;
+    margin: 0;
+    left: 60%;
+    padding: 0;
+    top: 85%;
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    /*font-size: 70px;
+    top: 505px;
+    left: 85px;*/
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+
+  @import "https://fonts.googleapis.com/css?family=Rubik+One";
+
+  .button::before, .button::after {
+    position: absolute;
+    content: '';
+    transition: all .5s;
+  }
+  .triangulo{
+    position: absolute;
+  }
+
+  .button {
+    width: 180px;
+    height: 60px;
+    display: inline-block;
+    line-height: 50px;
+    padding: 5px;
+    color: #a45c34;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    vertical-align: middle;
+
+    text-decoration: none;
+    font-size: 3vw;
+    margin: 0;
+    transition: all .5s;
+    background-color: #fcdb93;
+   
+  }
+  .button::before {
+    bottom: -15px;
+    height: 15px;
+    width: 100%;
+    left: 8px;
+    -webkit-transform: skewX(45deg);
+            transform: skewX(45deg);
+    background-color: #e47c44;
+  }
+  .button::after {
+    right: -15px;
+    height: 100%;
+    width: 15px;
+    bottom: -8px;
+    -webkit-transform: skewY(45deg);
+            transform: skewY(45deg);
+    background-color: #e47c44;
+  }
+  .button:active {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .button:active::before {
+    bottom: -5px;
+    height: 5px;
+    left: 3px;
+  }
+  .button:active::after {
+    right: -5px;
+    width: 5px;
+    bottom: -3px;
+  }
+  .btn-start{
+    position: absolute;
+    margin: 0;
+    left: 65%;
+    padding: 0;
+    top: 85%;
+      margin: auto;
+    width: 50%;
+    max-width: 500px;
+    /*font-size: 70px;
+    top: 505px;
+    left: 85px;*/
+  }
+
+.window{
+  position: relative;
+  margin: auto;
+  width: 50%;
+  max-width: 385px;
+  top: -5em;
+  background-repeat: no-repeat;
+  height: 15em;
+  /*width: 25em;*/
+}
+.ventana-fondo{
+  top: 0;
+  padding-top: 0px;
+  margin-top: 0;
+  position: absolute;
+  background: url(../img/svg/Window_open.svg);
+  background-repeat: no-repeat;
+  top: 0px;
+  left: 0px;
+  height: 450px;
+  width: 450px;
+  border: none;
+  outline:none;
+  background-size: cover;
+  background-size: 100%;
+}
+.puerta_ventana-left{
+  position: absolute;
+  background: url(../img/svg/door_window.svg);
+  background-repeat: no-repeat;
+  top: 91px;
+  left: -119px;
+  height: 340px;
+  width: 210px;
+  border: none;
+  outline:none;
+  background-size: 90%;
+
+}
+.puerta_ventana-right{
+  position: absolute;
+  background: url(../img/svg/door_window.svg);
+  background-repeat: no-repeat;
+  top: 91px;
+  right: -140px;
+  height: 340px;
+  width: 210px;
+  border: none;
+  outline:none;
+  background-size: cover;
+  background-size: 90%;
+}
+.elena{
+  position: absolute;
+  background: url(../img/svg/Helena1.svg);
+  background-repeat: no-repeat;
+  top: 108px;
+  left: 65px;
+  height: 300px;
+  width: 300px;
+  border: none;
+  outline:none;
+  background-size: cover;
+  background-size: 100%;
+
+}
+.fPuntos{
+  position: absolute;
+  color: #dc6c3c;
+  font-size: 3em;
+  letter-spacing: 20px;
+  top: 200px;
+  left: 130px;
+
+}
+.TotalPuntos{
+  position: absolute;
+  color: #fcdb93;
+  font-size: 3em;
+  letter-spacing: 15px;
+  top: 300px;
+  left: 160px;
+
+}
+.color-cafe{
+  position: absolute;
+  color: #a45c34;
+  font-size: 65px;
+  top: 450px;
+  left: 135px;
+}
+.color-naranja{
+  position: absolute;
+  color: #dc6c3c;
+  font-size: 65px;
+  top: 500px;
+  left: 70px;
+}
+/*************************************************************************************************************************************/
+/******************************************************VENTANA************************************************************************/
+.window-rule{
+  position: relative;
+  margin: auto;
+  width: 50%;
+  top: -5em;
+  max-width: 440px;
+  padding: auto;
+  background-repeat: no-repeat;
+  height: 33em;
+  /*width: 45em;*/
+}
+.ventana-fondo-rule{
+  position: absolute;
+  background: url(../img/svg/Window_open.svg);
+  background-repeat: no-repeat;
+  height: 35em;
+  width: 35em;
+  border: none;
+  outline:none;
+  background-size: cover;
+  background-size: 90%;
+  margin-left: -2em;
+
+}
+.puerta_ventana-left-rule{
+  position: absolute;
+  background: url(../img/svg/door_window.svg);
+  background-repeat: no-repeat;
+  top: 103px;
+  left: -166px;
+  height: 28.7em;
+  width: 14.7em;
+  border: none;
+  outline:none;
+  background-size: 90%;
+}
+.puerta_ventana-right-rule{
+  position: absolute;
+  background: url(../img/svg/door_window.svg);
+  background-repeat: no-repeat;
+  top: 103px;
+  right: -187px;
+  height: 28.7em;
+  width: 14.7em;
+  border: none;
+  outline:none;
+  background-size: 90%;
+}
+/*************************************************************************************************************************************/
+/************************************************ FUENTE INSTRUCCIONES **************************************************************************/
+.tittle-rule{
+  color: #fcdb93;
+  position: absolute;
+  font-size: 1.5em;
+  top:2.5em;
+  left: 5.5em;
+}
+.rules{
+    position: absolute;
+    font-size: 1.4em;
+    height: 13em;
+    width: 15em;
+    top: 145px;
+    left: 0.5em;
+}
+/*************************************************************************************************************************************/
+/**************************************************** VIÑETAS ************************************************************************/
+ul li {
+    color: #e47c44;
+    list-style-type: none;
+    margin-left: 1em;
+}
+
+ul li:before {
+    content: '\2022 ';
+    color: #fcdb93;
+    padding-right: 0.7em;
+}
+.numbers{
+  background: rgba(0,0,0,0.80);
+  background-size: 70%;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.circle{
+  position: relative;
+  top: 20%;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  max-width: 500px;
+  max-height: 500px;
+  color: #fcdb93;
+  background: url(../img/svg/Numbers.svg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+
+  font-size: 15em;
+  font-family: "Ribeye-Regular";
+}
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type"> <meta content="utf-8" http-equiv="encoding">
+	<!--<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">--> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Words n' ducks</title>
+</head>
+<body onload="cronometro(),mostrar()">
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="prueba.js"></script>				
+<div id="fondo">
+	<div class="escenario">
+		<img id="btncerrar" src="images/Cerrar.svg">
+		<div id="errores">0</div>
+		<img id="categoria" src="images/Letrero2.svg">
+		<text id="categoria1"></text>
+		<img id="luces" src="images/Luces Apagadas.svg">
+		<img id="luces1" src="images/Luces Correcto.svg">
+		<img id="luces2" src="images/Luces Incorrecto.svg">
+		<div id="lives"><br>LIVES</div>
+		<div id="plives">
+			<img class="plive" id="plive1"src="images/Pato Lives 1.svg">
+			<img class="plive" id="plive2"src="images/Pato Lives 1.svg">
+			<img class="plive" id="plive3"src="images/Pato Lives 1.svg">
+		</div>
+
+		<div id="plives1">
+			<img class="pdead" id="pdead1"src="images/Pato Lives 2.svg">
+			<img class="pdead" id="pdead2"src="images/Pato Lives 2.svg">
+			<img class="pdead" id="pdead3"src="images/Pato Lives 2.svg">
+		</div>
+
+  		<div id="ducks">
+  			<div class="duck" id="duck1"><p class="answ" id="answ1"></p><img src="images/Pato 1.svg"></div>
+  			<div class="duck" id="duck2"><p class="answ" id="answ2"></p><img src="images/Pato 1.svg"></div>
+  			<div class="duck" id="duck3"><p class="answ" id="answ3"></p><img src="images/Pato 1.svg"></div>
+  		</div>
+
+  		<div id="stats">
+  			<p id="statstxt">SCORE &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp TIME</p>
+  			<div id="scr">120</div>
+  			<div id="time"></div>
+  		</div>
+	</div>
+</div>	
+
+</body>
+</html>

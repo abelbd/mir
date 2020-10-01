@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!---->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resaltar Texto</title>
+    <!--Llamada a la libreria Bootstrap 4-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <!--Inicio de apartado de estilos-->
+    <style>
+      body {
+        margin: 15px;
+      }
+      div.search span,
+      div.search input[name="keyword"] {
+        display: block;
+      }
+      div.seach input[name="keyword"] {
+        margin-top: 4px;
+      }
+      div.panel {
+        margin-bottom: 15px;
+      }
+      div.panel .panel.body p:last-child {
+        margin-bottom: 0;
+      }
+      mark {
+        padding: 0;
+        background: aqua;
+      }
+    </style>
+    <script src="js/mark.min.js"></script>
+  </head>
+  <body>
+    <h2>Resaltar Texto</h2>
+    <div class="panel panel-default">
+      <div class="panel-heading">Buscar</div>
+      <div class="panel-body">
+        <div class="search row">
+          <div class="col-xs-6">
+            <button id="btn">Click Me!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body context">
+        <p>
+          Anna Metselitsa is the 30-year-old female founder of Haute Rogue,
+          which is an online boutique with a large following and designs sold in
+          exclusive and renowned stores. This would be quite an achievement for
+          any business owner, but it is a great success for an immigrant
+          entrepreneur who came to the United States with just $300 in her
+          pocket. She left Belarus for America in the year 2007, ultimately
+          finding her way to New York City. For about 7 years, she waitressed
+          and had many jobs in order to survive and save for her dream of
+          becoming a fashion designer. Her dream came true in May 2014, when she
+          launched her online shop.
+        </p>
+        <p>
+          Metselitsa did not have an easy childhood as her family lived off
+          government assistance and purchased only the bare necessities. What
+          kept her going was her passion for clothing, cultivated early on
+          through fashion magazines, which she bought whenever she could and
+          which inspired her to find low-cost ways to look good, even if her
+          creations did not last long. Likewise, she also found low-cost ways to
+          look good even if her creations did not last long.
+        </p>
+        <p>
+          After moving to New York, she taught herself website design and coding
+          using online resources and initially sold clothing made by other
+          designers, while she worked on designs for dresses and shirts. Saying
+          she struggled at the beginning would be an understatement. Sleeping on
+          a warehouse floor by night and eating cheap fast food by day,
+          Nevertheless, Haute Rogue grew. Haute Rogue now sells products through
+          more than 800 stores across North America, and she now plans to expand
+          into other continents.
+        </p>
+        <p>
+          For two years, she experienced some complications in keeping her
+          business afloat, specifically with reinvesting her income she made
+          from the business. She also began to sell her own colorful designs to
+          numerous small New York boutiques. By 2016, everything was looking up,
+          with the business receiving its first big order from the fashion giant
+          Forever 21.
+        </p>
+        <p>
+          Partnering with a friend from the wholesale sector, she was able to
+          keep Haute Rogue on budget and has, since then, seen it grow with each
+          passing year. Today, its clothing is sold in stores in the U.S.,
+          Canada and Mexico, while the company’s online presence now includes
+          more than 77,000 followers on Instagram and 15,000 on Facebook.
+          Whatever the future holds, Metselitsa still has big dreams for new
+          opportunities.
+        </p>
+        <blockquote
+          cite="https://thestoryexchange.org/immigrant-entrepreneur-anna-metselitsa-success-fashion-business-haute-rogue/"
+        >
+          Helfand-Rogers, C. (2018). This Immigrant Entrepreneur Came to America
+          with $300. Now She Has a Successful Fashion Business. [online] The
+          Story Exchange.
+        </blockquote>
+      </div>
+    </div>
+    <script src="js/resaltar.js"></script>
+    <script>
+      let palabras = ["Anna", "Partnering", "following", "77,000", "childhood"];
+      //Se llama a la función que resalta la primera palabra
+      ResaltarUno(palabras);
+      ResaltarTexto(palabras);
+    </script>
+  </body>
+</html>

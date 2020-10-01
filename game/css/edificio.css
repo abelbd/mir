@@ -1,0 +1,539 @@
+*{
+  margin: 0;
+  padding-top: 0;
+}
+audio { 
+  width: 600px; 
+  box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+  border-radius: 90px;
+  transform: scale(1.05);
+}
+.fondos1{
+  background: url(../img/svg/sky.svg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+	height: 100%;
+	width: 100%;
+  position: fixed;
+}
+.fondos{
+  background: #84ccc4 url(../img/svg/sky.svg) bottom left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.numeros{
+background: black;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.edificio{
+  background: url(../img/svg/builiding.svg);
+  position: absolute;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 54em;
+  width: 44em;
+  position: fixed;
+  bottom: 3.5em;
+  left: 43%;
+}
+
+.Helena{
+  background: url(../img/svg/HelenaSpeaks.svg);
+  position: absolute;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 10em;
+  width: 8.5em;
+  position: absolute;
+  bottom: 3.1em;
+  left: 20%;
+}
+
+.dialogo{
+  background: url(../img/svg/SpeechBubble.svg);
+  position: relative;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 30em;
+  width: 25em;
+  position: absolute;
+  bottom: 20%;
+  left: 14%;
+}
+.score{
+  background: url(../img/svg/Panel.svg);
+  position: relative;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 15em;
+  width: 23em;
+  position: absolute;
+  top:0%;
+  padding-top: 0;
+  left: 15%;
+  color: #542c1c;
+}
+@font-face
+{
+   font-family: "Ribeye-Regular";
+   src: url("fuente/Ribeye-Regular.ttf");
+}
+@font-face
+{
+   font-family: "ArimaMadurai-Regular";
+   src: url("fuente/ArimaMadurai-Regular.ttf");
+}
+.score_letra{
+  position: absolute;
+  font-size: 2em;
+  font-family: "Ribeye-Regular";
+  top: 5em;
+  left: 1em;
+}
+.score_num{
+  background: #fce4ac;
+  position: absolute;
+  font-size: 1.9em;
+  font-family: "Ribeye-Regular";
+  width: 4em;
+  height: 1.5em;
+  border-radius: 10px;
+  top: 5em;
+  left: 6em;
+  padding-left:1em;
+}
+.barra{
+  background: #fce4ac;
+  height: 25px;
+  width: 85%;
+  top: 5.6em;
+  left: 1.5em;
+  border-radius: 3px;
+  position: absolute;
+}
+#myProgress {
+  position: relative;
+  width: 85%;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 3px;
+  top: 5.6em;
+  left: 1.5em;
+}
+#myBar {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fce4ac;
+  border-radius: 3px;
+}
+.descripcion{
+  position: absolute;
+  font-size: 3em;
+  font-family: 'ArimaMadurai-Regular', cursive;
+  top: 2.5em;
+  left: 1em;
+  width: 310px;
+  color: #a45c34;
+  line-height: 1em;
+  text-align: center;
+}
+.close{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+
+}
+#div-0{
+  height: 6em;
+  width: 6em;
+  top: 12em;
+  left: 8em;
+  position: absolute;
+}
+#div-1{
+  height: 6em;
+  width: 6em;
+  top: 12em;
+  left: 18.5em;
+  position: absolute;
+}
+#div-2{
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  top: 12em;
+  left: 29.15em;
+  position: absolute;
+}
+#div-3{
+  height: 6em;
+  width: 6em;
+  top: 22.6em;
+  left: 8em;
+  position: absolute;
+}
+#div-4{
+  height: 6em;
+  width: 6em;
+  top: 22.6em;
+  left: 18.5em;
+  position: absolute;
+}
+#div-5{
+  height: 6em;
+  width: 6em;
+  top: 22.6em;
+  left: 29.15em;
+  position: absolute;
+}
+#div-6{
+  height: 6em;
+  width: 6em;
+  top: 33em;
+  left: 8em;
+  position: absolute;
+}
+#div-7{
+  height: 6em;
+  width: 6em;
+  top: 33em;
+  left: 18.5em;
+  position: absolute;
+}
+#div-8{
+
+  height: 6em;
+  width: 6em;
+  top: 33em;
+  left: 29.15em;
+  position: absolute;
+}
+#img-estado0{
+
+  height: 6em;
+  width: 6em;
+  top: 33em;
+  left: 29.15em;
+  position: absolute;
+}
+img{
+  clip-path: inset(0 0 1.2em 0);
+}
+.cor0{
+
+  height: 11.5em;
+  width: 11.5em;
+  top: 9em;
+  left: 5.3em;
+  position: absolute;
+}
+.cor1{
+
+  height: 11.5em;
+  width: 11.5em;
+  top: 9em;
+  left: 15.9em;
+  position: absolute;
+}
+.cor2{
+
+  height: 11.5em;
+  width: 11.5em;
+  top: 9em;
+  left: 26.4em;
+  position: absolute;
+}
+.cor3{
+
+  height: 11.5em;
+  width: 11.5em;
+  top: 19.5em;
+  left: 5.3em;
+  position: absolute;
+}
+.cor4{
+
+  height: 11.5em;
+  width: 11.5em;
+  top: 19.5em;
+  left: 15.9em;
+  position: absolute;
+}
+.cor5{
+
+  height: 11.5em;
+  width: 11.5em;
+  top: 19.5em;
+  left: 26.4em;
+  position: absolute;
+}
+.cor6{
+
+  height: 11.5em;
+  width: 11.5em;
+  top: 30em;
+  left: 5.3em;
+  position: absolute;
+}
+.cor7{
+
+  height: 11.5em;
+  width: 11.5em;
+  top: 30em;
+  left: 15.9em;
+  position: absolute;
+}
+.cor8{
+  height: 11.5em;
+  width: 11.5em;
+  top: 30em;
+  left: 26.4em;
+  position: absolute;
+}
+.corc0, .corc1, .corc2, .corc3, .corc4, .corc5, .corc6, .corc7, .corc8{
+  background: url(../img/svg/Correct.svg);
+  /*background-size: 100% 100%;*/
+}
+.cori0, .cori1, .cori2, .cori3, .cori4, .cori5, .cori6, .cori7, .cori8{
+  background: url(../img/svg/Incorrect.svg);
+  /*background-size: 80% 80%;*/
+
+}
+
+@media (max-width:992px) {
+
+}
+@media (min-width: 800px) and (max-width: 1400px) {
+  .cor0{
+
+  height: 7em;
+  width: 7em;
+  top: 6.7em;
+  left: 4.2em;
+  position: absolute;
+}
+.cor1{
+
+  height: 7em;
+  width: 7em;
+  top: 6.7em;
+  left: 11.5em;
+  position: absolute;
+}
+.cor2{
+
+  height: 7em;
+  width: 7em;
+  top: 6.7em;
+  left: 18.8em;
+  position: absolute;
+}
+.cor3{
+
+  height: 7em;
+  width: 7em;
+  top: 14em;
+  left: 4.2em;
+  position: absolute;
+}
+.cor4{
+
+  height: 7em;
+  width: 7em;
+  top: 14em;
+  left: 11.5em;
+  position: absolute;
+}
+.cor5{
+  height: 7em;
+  width: 7em;
+  top: 14em;
+  left: 18.8em;
+  position: absolute;
+}
+.cor6{
+  height: 7em;
+  width: 7em;
+  top: 21.5em;
+  left: 4.2em;
+  position: absolute;
+}
+.cor7{
+  height: 7em;
+  width: 7em;
+  top: 21.5em;
+  left: 11.5em;
+  position: absolute;
+}
+.cor8{
+  height: 7em;
+  width: 7em;
+  top: 21.5em;
+  left: 18.8em;
+  position: absolute;
+}
+  .Helena{
+    background: url(../img/svg/HelenaSpeaks.svg);
+    position: absolute;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 8em;
+    width: 6.5em;
+    position: absolute;
+    bottom: 2.4em;
+    left: 20%;
+  }
+  .dialogo{
+    background: url(../img/svg/SpeechBubble.svg);
+    position: relative;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 19em;
+    width: 16em;
+    position: absolute;
+    bottom: 21%;
+    left: 16%;
+  }
+  .score{
+    background: url(../img/svg/Panel.svg);
+    position: relative;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 8em;
+    width: 16em;
+    position: absolute;
+    top:0%;
+    padding-top: 0;
+    left: 16%;
+    color: #542c1c;
+  }
+  .score_letra{
+    position: absolute;
+    font-size: 1em;
+    font-family: "Ribeye-Regular";
+    top: 6.5em;
+    left: 3em;
+  }
+  .score_num{
+    background: #fce4ac;
+    position: absolute;
+    font-size: 1em;
+    font-family: "Ribeye-Regular";
+    width: 4em;
+    height: 1.3em;
+    border-radius: 5px;
+    top: 6.4em;
+    left: 8em;
+    padding-left:1em;
+  }
+#myProgress {
+  position: relative;
+  width: 85%;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 3px;
+  top: 3.9em;
+  left: 1.2em;
+}
+#div-0{
+  height: 4.7em;
+  width: 4.7em;
+  top: 8em;
+  left: 5.3em;
+  position: absolute;
+}
+#div-1{
+  height: 4.7em;
+  width: 4.7em;
+  top: 8em;
+  left: 12.5em;
+  position: absolute;
+}
+#div-2{
+  height: 4.7em;
+  width: 4.7em;
+  top: 8em;
+  left: 19.8em;
+  position: absolute;
+}
+#div-3{
+  height: 4.7em;
+  width: 4.7em;
+  top: 15.3em;
+  left: 5.3em;
+  position: absolute;
+}
+#div-4{
+  height: 4.7em;
+  width: 4.7em;
+  top: 15.3em;
+  left: 12.5em;
+  position: absolute;
+}
+#div-5{
+  height: 4.7em;
+  width: 4.7em;
+  top: 15.3em;
+  left: 19.8em;
+  position: absolute;
+}
+#div-6{
+  height: 4.7em;
+  width: 4.7em;
+  top: 22.5em;
+  left: 5.2em;
+  position: absolute;
+}
+#div-7{
+  height: 4.7em;
+  width: 4.7em;
+  top: 22.5em;
+  left: 12.5em;
+  position: absolute;
+}
+#div-8{
+
+  height: 4.7em;
+  width: 4.7em;
+  top: 22.5em;
+  left: 19.8em;
+  position: absolute;
+}
+
+.edificio{
+  background: url(../img/svg/builiding.svg);
+  position: absolute;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 39em;
+  width: 30em;
+  position: fixed;
+  bottom: 1.5em;
+  left: 43%;
+}
+
+.descripcion{
+  position: absolute;
+  font-size: 2em;
+  font-family: 'ArimaMadurai-Regular', cursive;
+  top: 3em;
+  left: 1em;
+  width: 200px;
+  color: #a45c34;
+  line-height: 1em;
+  text-align: center;
+}
+
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/edificio.css">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Ribeye&display=swap" rel="stylesheet">
+    <title>Meet my friend</title>
+  </head>
+  <body>
+    <div id="portada" style="display: block;">    
+      <div  class="fondo">
+        <div class="btn-close">
+            <div class="container">
+              <div class="square square2"></div>
+            </div> 
+        </div> 
+        <div id="ventana" style="display: block;">
+          <div id="ven-inicio" class="window" >
+            <div class="ventana-fondo"></div>
+            <div class="puerta_ventana-left"></div>
+            <div class="puerta_ventana-right"></div>
+            <div class="elena"></div>
+            <p class="fuente color-cafe">Meet</p>
+            <p class="arima color-naranja">my friends</p>
+          </div> 
+          <div class="btn-start fuente"> 
+            <a class="button " href="#" onclick="goInstrucciones();">Start <img class="triangulo" src="img/svg/triangulo.svg"></a> 
+          </div> 
+        </div> 
+        <div id="instruccion" style="display: none;">
+          <div id="instrucciones" >
+            <div class="window-rule">
+              <div class="ventana-fondo-rule"></div>
+              <div class="puerta_ventana-left-rule"></div>
+              <div class="puerta_ventana-right-rule"></div>
+              <div id="rule" style="display: block;">
+                <p class="fuente tittle-rule">HOW TO PLAY</p>
+                <ul class="rules arima">
+                  <li>Helena wants you to meet her friends.</li>
+                  <li>She will describe them to you.</li>
+                  <li>Choose the correct window of them according to their description.</li>
+                </ul>  
+              </div>
+              <div id="puntuacion" style="display: none;">
+                <p class="fuente fPuntos">Score</p>
+                <p id="pfinal" class="fuente TotalPuntos"></p> 
+              </div>
+            </div>        
+          </div>
+            <div id="btnStart" class="btn-start fuente"> 
+              <a class="button " href="#" onclick="win();">Start<img class="triangulo" src="img/svg/triangulo.svg"></a> 
+            </div>   
+        </div>
+
+      </div>
+    </div>  
+    <div id="casa" style="display: none;">
+
+          <div class="fondos">
+          <div class="score">
+            <div id="myProgress">
+              <div id="myBar"></div>
+            </div>
+            <p class="score_letra">POINTS</p>
+            <p id="puntos" class="score_num">00000</p>
+
+            <div id="setAudio" style="display: none"></div>
+          </div>
+          <div class="dialogo">
+            <p id="descrip_txt" class="descripcion">Meet my friends</p>
+          </div>
+          <div class="Helena"></div>
+          <div id="img" class="edificio">
+          </div>
+          <div class="close">
+            <div class="container">
+              <div class="square square2"></div>
+            </div> 
+        </div> 
+          <div id="num" class="numbers" style="display: block;">
+            <div id="count" class="circle" style="display: none;">3</div>
+          </div>
+        </div>            
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

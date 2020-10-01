@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 81" style="enable-background:new 0 0 60 81;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFF3F1;}
+	.st1{fill:#FB6E51;}
+	.st2{opacity:0.41;}
+	.st3{clip-path:url(#SVGID_2_);fill:#FFF3F1;}
+	.st4{fill:#006F30;}
+</style>
+<g>
+	<polygon class="st0" points="27.4,45.6 20,43 25.3,23.2 32,25.3 	"/>
+	<path class="st1" d="M16.4,23.6c2.3-7.4,9.2-11.8,15.5-9.9s9.5,9.5,7.2,16.9L16.4,23.6z"/>
+	<g class="st2">
+		<defs>
+			<path id="SVGID_1_" class="st2" d="M16.4,23.6c2.3-7.4,9.2-11.8,15.5-9.9s9.5,9.5,7.2,16.9L16.4,23.6z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<ellipse transform="matrix(0.2945 -0.9557 0.9557 0.2945 -5.9621 35.721)" class="st3" cx="21.2" cy="21.9" rx="3.5" ry="3"/>
+		<ellipse transform="matrix(0.2945 -0.9557 0.9557 0.2945 4.6685 35.9761)" class="st3" cx="26.7" cy="14.8" rx="3.3" ry="2.8"/>
+		<ellipse transform="matrix(0.2945 -0.9557 0.9557 0.2945 -1.9452 43.1348)" class="st3" cx="28.2" cy="22.9" rx="2.3" ry="1.9"/>
+		<ellipse transform="matrix(0.2945 -0.9557 0.9557 0.2945 6.6373 43.4509)" class="st3" cx="32.7" cy="17.2" rx="2.2" ry="1.9"/>
+		<ellipse transform="matrix(0.2945 -0.9557 0.9557 0.2945 6.1946 51.6873)" class="st3" cx="38.1" cy="21.6" rx="3" ry="2.5"/>
+		<ellipse transform="matrix(0.2945 -0.9557 0.9557 0.2945 -3.6228 52.0001)" class="st3" cx="33.4" cy="28.5" rx="3.6" ry="3"/>
+	</g>
+</g>
+<g>
+	<path class="st4" d="M23.5,68.4c-4-10.4-5.9-27-5-38.1c0.1-1.5,0.7-3.4,2.2-3.5c1,0,1.7,0.8,2.3,1.5c6.3,8.6,4.8,20.5,3,31
+		c2.4-2.2,2.7-5.8,3.1-9c1.1-8.3,4.1-16.3,8.8-23.2c-1.2,10.9-3,21.7-5.5,32.4c4.3-11,8.5-22.1,12.8-33.1
+		c1.3,13.4-6.3,25.9-13.5,37.3c3.2-3,7.1-5.3,11.3-6.5c0.9-0.3,2-0.4,2.5,0.4c0.4,0.6,0,1.4-0.4,2c-3.4,5.4-14,7.3-18.4,11.9"/>
+</g>
+</svg>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>How are u feelin' today</title>
+	<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body onload="cronometro()" >
+	<div id="portada" style="display: block;">
+		<div class="fondo">
+			<img src="images/SVG/Cronometro.svg" id="cronometro">
+			<div id="contenedor">
+			<div class="maquina">
+				<div id="crononum"></div>
+				<img id="e1" src="images/SVG/Estrella.svg"><img id="e2" src="images/SVG/Estrella.svg"><img id="e3" src="images/SVG/Estrella.svg">
+				<img id="eg1" src="images/SVG/EstrellaGris.svg"><img id="eg2" src="images/SVG/EstrellaGris.svg"><img id="eg3" src="images/SVG/EstrellaGris.svg">
+				<img id="smfrg" src="images/SVG/Semaforo-gris.svg"><img id="smfvg" src="images/SVG/Semaforo-gris.svg">
+				<img id="smfr" src="images/SVG/Semaforo-rojo.svg"><img id="smfv" src="images/SVG/Semaforo-verde.svg">
+
+				<img id="palancamov" src="images/SVG/Palanca.svg" onmousedown="imgemocion()">
+				<p id="points" style="background: #dc4453;">points</p><p id="numpts">0</p>
+				
+				<div id=selector1>
+				<!--	<img class="selector" id ="select1" src="images/SVG/Boton2.svg">
+					<img class="selector" id ="select2" src="images/SVG/Boton2.svg">
+					<img class="selector" id ="select3" src="images/SVG/Boton2.svg">-->
+				</div>
+				<div id="slct1" class="slct"></div>
+				<div id="slct2" class="slct"></div>
+				<div id="slct3" class="slct"></div>				
+				<div id="set_img"><img src="images/SVG/Logo.svg"></div>
+
+				
+			</div>
+				<div id="fondolandscape">Orienta tu dispositivo en posicion vertical</div>
+			<div id="errores">0</div>
+		</div>
+		<div id="marcador">
+			<br><br>
+			<p id="congrats">CONGRATS!</p>
+			<p id="yscr">Your score<p id="score">0</p></p>
+			
+			<a href="index.html"><button id="retry"><img src="images/SVG/retry.png" width="20%">RETRY</button></a>
+			<button id="finish" onclick="ocultar3()">FINISH <img src="images/SVG/paloma.png" width="16%"></button>
+			<img id="estrella" src="images/SVG/Estrella.svg">
+			<p id="credits">CREDITS</p>
+		</div>
+			<img id="btncerrar" onclick="cerrar()" src="images/SVG/Cerrar.svg">
+			
+		</div>
+
+	</div>
+		 	<img id="imgcountdown" src="images/SVG/Contador.svg">
+			<div class="centrado2"id="countdown"></div>
+
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
